@@ -1,0 +1,16 @@
+{
+    "name": "fluxctrl/kbd",
+    "description": "Keyboard shortcuts for FluxCTRL using Mousetrap.",
+    "homepage": "http://fluxctrl.io",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "fluxctrl/fluxctrl": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FluxCtrl\\Kbd\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
